@@ -1,0 +1,16 @@
+ENVIRONMENT VARIABLES:
+$env:FLASK_APP="app.app" #foldername.filename
+
+LINKS EXAMPLES:
+<a href="{{ url_for('home') }}">Home</a>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='custom.css')}}" />
+<script src="{{ url_for('static', filename='jquery.min.js') }}"></script>
+
+
+FUNCTIONS EXAMPLES:
+@app.route("/contacts/feedback/")
+def contact():
+    return render_template("contacts/feedback.html")
+
+
+
