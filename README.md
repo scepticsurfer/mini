@@ -1,2 +1,2 @@
 # mini
-Minimal flask app for study purposes.
+Minimal Flask app for study purposes.
